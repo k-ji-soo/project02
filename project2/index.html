@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name='Viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.6'>
+	<meta name='Keywords' content='코카콜라, 디자인, 반응형 리디자인 웹디자인'>
+	<meta name='Author' content='jisoo'>
+	<meta name='Publisher' content='jisoo'>
+	<meta name='Description' content='코카콜라 반응형 리디자인 페이지'>
+	<meta name='Author-Date' content='2021-05-06'>
+	<meta name='Robots' content='index'>
+	<title>코카콜라</title>
+	<link rel="stylesheet" href="css/reset.css"/>
+	<link rel="stylesheet" href="css/index.css"/>
+	<link rel="stylesheet" href="css/response.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/pav.ico"/>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="js/lib/jquery-1.12.4.min.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	<script src="js/index.js" defer></script>
+	<script src="js/videoControl.js" defer></script>
+</head>
+<body>
+	<ul id="skip">
+		<li><a href="#header">헤더 바로가기</a></li>
+		<li><a href="#nav">메뉴 바로가기</a></li>
+		<li><a href="#section">내용 바로가기</a></li>
+	</ul>
+	<div id="wrap">
+		<header id="header">
+			<div class="pc">
+				<nav id="nav">
+					<h1 class="logo"><a href="#"><img src="img/logo.svg.png" alt="logo"/></a></h1>
+					<ul class="cf">
+						<li>
+							<a href="#">COMPANY</a>
+							<ul>
+								<li><a href="#">회사소개</a></li>
+								<li><a href="#">연혁</a></li>
+								<li><a href="#">정도경영</a></li>
+								<li><a href="#">사회활동</a></li>
+								<li><a href="#">인재채용</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">PRODUCT</a>
+							<ul>
+								<li><a href="#">신제품</a></li>
+								<li><a href="#">대표브랜드</a></li>
+								<li><a href="#">전체상품</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">STORY</a>
+							<ul>
+								<li><a href="#">코카-콜라 이야기</a></li>
+								<li><a href="#">네버앤딩 코카-콜라</a></li>
+								<li><a href="#">코카-콜라 갤러리</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">NEWS</a>
+							<ul>
+								<li><a href="#">뉴스</a></li>
+								<li><a href="#">이벤트</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">SERVICE</a>
+							<ul>
+								<li><a href="#">FAQ</a></li>
+								<li><a href="#">고객의 소리</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+				<div class="gnb">
+					<div class="search">
+						<a href="#"><i class="fas fa-search"></i></a>
+					</div>
+				</div>
+			</div> <!-- class="pc" -->
+			<div class="mobile">
+				<a href="#" class="hamburger-button">
+					<span></span>
+					<span></span>
+					<span></span> 
+					<span></span>
+				</a>
+				<div class="overlay">
+					<nav class="menu">
+						<ul>
+							<li><a href="#">COMPANY</a></li>
+							<li><a href="#">PRODUCT</a></li>
+							<li><a href="#">STORY</a></li>
+							<li><a href="#">NEWS</a></li>
+							<li><a href="#">SERVICE</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<section id="section">
+			<h1 class="ir_so">content 내용</h1>
+			<a id="move-top-btn" href="#">TOP</a>
+			<article class="youtube">
+				<h2 class="ir_so">비디오 컨트롤 메인화면</h2>
+				<div>
+					<div class="section-main-video">
+						<video id="mainVideo" autoplay muted>
+							<source src="video/teaser.mp4" type="video/mp4">
+						</video>
+					</div>
+					<div class="sec-icon-foot">
+						<div class="sec-icon-center">
+							<ul class="cf">
+								<li>
+									<span>
+										<a href="javascript:" class="playPuaseIconBt">
+											<i class="fas fa-pause"></i>
+										</a>
+									</span>
+								</li>
+                                <li>
+									<span>
+										<a href="javascript:" class="mutedIconBt" title="Soundon/off">
+											<i class="fas fa-volume-mute"></i>
+										</a>
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</article>
+			<article class="content1">
+				<div class="container">
+					<div class="cont1-inner">
+						<h3 class="cont1-title">
+							세계 1위 브랜드 가치<br/>함께 하면 더 즐거운 코카-콜라!
+						</h3>
+						<img src="img/cont1.jpg" alt="cont1_img"/>
+						<div class="cont1-textBox">
+							<div class="cont1-box box1">
+								<div class="cont1-subtit">
+									<h4>경영이념</h4>
+								</div>
+								<div class="cont1-subtext">
+									<p>
+										고객을 위한 가치창조<br/>
+										인간존중의 경영
+									</p>
+								</div>
+							</div>
+							<div class="cont1-box box2">
+								<div class="cont1-subtit">
+									<h4>연혁</h4>
+								</div>
+								<div class="cont1-subtext">
+									<p>
+										LG생활건강 코카-콜라 음료가<br/>
+										새로운 역사를 이어갑니다.
+									</p>
+								</div>
+							</div>
+							<div class="cont1-box box3">
+								<div class="cont1-subtit">
+									<h4>코카콜라 135주년</h4>
+								</div>
+								<div class="cont1-subtext">
+									<p>
+										‘코카-콜라’는 135년의 역사와 함께<br/>
+										전 세계 200여 나라의 고객과 함께 한<br/>
+										세계 최고의 음료 브랜드입니다.  
+									</p>
+								</div>
+							</div>
+							<div class="hover-introText">
+								<p><a href="#">코카콜라 소개</a></p>
+							</div>
+						</div> <!-- class="cont1-textBox" -->
+					</div>
+				</div> <!-- class="container" -->
+			</article> <!-- class="content1" -->
+			<article class="content2">
+				<div class="container">
+					<div class="cont2-box">
+						<h4 class="ir_so">코카-콜라 음료 list</h4>
+						<div class="cont2-header">
+							 <dl>
+								<dt>PRODUCT</dt>
+								<dd>
+									<span>코카-콜라 음료에서 만든<br/>다양한 맛의 세계로 여러분을 초대합니다.</span>
+								</dd>
+							</dl>
+						</div>
+						<div id="content">
+							<article class="content2-list">
+								<h3 class="ir_so">제품리스트</h3>
+								<ul class="tab">
+									<li class="active3"><a href="#">코카콜라</a></li>
+									<li><a href="#">스프라이트</a></li>
+									<li><a href="#">환타</a></li>
+									<li><a href="#">조지아</a></li>
+									<li><a href="#">미닛에이드</a></li>
+									<li><a href="#">씨그램</a></li>
+								</ul>
+								<div class="tab_content">
+									<div class="product2">
+										<h4 class="ir_so">코카콜라</h4>
+										<div class="cont2-brand-logo">
+											<img src="img/brand-logo-cola.png" alt="brand-logo"/>
+											<div class="mobile-img">
+												<img src="img/brand-logo2.png" alt="brand-logo"/>
+											</div>
+										</div>
+										<div class="cont2-brand-pro">
+											<ul>
+												<li>
+													<div class="img">
+													   <a href="#"><img src="img/cont2_product1.jpg" alt="product1"/></a>
+													</div>
+													 <span class="pro-name"><a href="#">코카 콜라</a></span>
+												</li>
+												<li>
+													<div class="img">
+														<a href="#"><img src="img/cont2_product2.jpg" alt="product2"/></a>
+													</div>
+													<span class="pro-name"><a href="#">코카 콜라 제로</a></span>
+												</li>
+												<li>
+													<div class="img">
+														<a href="#"><img src="img/cont2_product3.jpg" alt="product3"/></a>
+													</div>
+													<span class="pro-name"><a href="#">코카 콜라 라이트</a></span>
+												</li>
+												<li>
+													<div class="img">
+														<a href="#"><img src="img/cont2_product1.jpg" alt="product4"/></a>
+													</div>
+													<span class="pro-name"><a href="#">코카 콜라</a></span>
+												</li>
+												<li>
+													<div class="img">
+														<a href="#"><img src="img/cont2_product2.jpg" alt="product2"/></a>
+													</div>
+													<span class="pro-name"><a href="#">코카 콜라 제로</a></span>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="product2">
+										<h4 class="ir_so">스프라이트</h4>
+										<div class="cont2-brand-logo">
+											<img src="img/brand-logo-sprite.png" alt="brand-logo"/>
+											<div class="mobile-img">
+												<img src="img/brand-logo2.png" alt="brand-logo"/>
+											</div>
+										</div>
+										<div class="cont2-brand-pro">
+											<ul>
+												<li>
+													<div class="img">
+													   <a href="#"><img src="img/cont2_sprite1.jpg" alt="product1"/></a>
+													</div>
+													 <span class="pro-name"><a href="#">스프라이트</a></span>
+												</li>
+												<li>
+													<div class="img">
+														<a href="#"><img src="img/cont2_sprite2.jpg" alt="product2"/></a>
+													</div>
+													<span class="pro-name"><a href="#">스프라이트 킨사이다</a></span>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="product2">
+										<h4 class="ir_so">환타</h4>
+										<div class="cont2-brand-logo">
+											<img src="img/brand-logo-fanta.png" alt="brand-logo"/>
+											<div class="mobile-img">
+												<img src="img/brand-logo2.png" alt="brand-logo"/>
+											</div>
+										</div>
+										<div class="cont2-brand-pro">
+											<ul>
+												<li>
+													<div class="img">
+													   <a href="#"><img src="img/cont2_fanta1.jpg" alt="product1"/></a>
+													</div>
+													 <span class="pro-name"><a href="#">환타 오렌지</a></span>
+												</li>
+												<li>
+													<div class="img">
+														<a href="#"><img src="img/cont2_fanta2.jpg" alt="product2"/></a>
+													</div>
+													<span class="pro-name"><a href="#">환타 파인애플</a></span>
+												</li>
+												<li>
+													<div class="img">
+														<a href="#"><img src="img/cont2_fanta3.jpg" alt="product3"/></a>
+													</div>
+													<span class="pro-name"><a href="#">환타 포도</a></span>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="product2">
+										<h4 class="ir_so">조지아</h4>
+										<div class="cont2-brand-logo">
+											<img src="img/brand-logo-jja.png" alt="brand-logo"/>
+											<div class="mobile-img">
+												<img src="img/brand-logo2.png" alt="brand-logo"/>
+											</div>
+										</div>
+										<div class="cont2-brand-pro">
+											<ul>
+												<li>
+													<div class="img">
+													   <a href="#"><img src="img/cont2_gga1.jpg" alt="product1"/></a>
+													</div>
+													 <span class="pro-name"><a href="#">조지아</a></span>
+												</li>
+												<li>
+													<div class="img">
+														<a href="#"><img src="img/cont2_gga2.jpg" alt="product2"/></a>
+													</div>
+													<span class="pro-name"><a href="#">조지아 고티카 콜드브루</a></span>
+												</li>
+												<li>
+													<div class="img">
+														<a href="#"><img src="img/cont2_gga3.jpg" alt="product4"/></a>
+													</div>
+													<span class="pro-name"><a href="#">조지아 크래프트</a></span>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="product2">
+										<h4 class="ir_so">미닛에이드</h4>
+										<div class="cont2-brand-logo">
+											<img src="img/brand-logo-mn.png" alt="brand-logo"/>
+											<div class="mobile-img">
+												<img src="img/brand-logo2.png" alt="brand-logo"/>
+											</div>
+										</div>
+										<div class="cont2-brand-pro">
+											<ul>
+												<li>
+													<div class="img">
+													   <a href="#"><img src="img/cont2_mn1.jpg" alt="product1"/></a>
+													</div>
+													 <span class="pro-name"><a href="#">미닛에이드 오렌지</a></span>
+												</li>
+												<li>
+													<div class="img">
+														<a href="#"><img src="img/cont2_mn2.jpg" alt="product2"/></a>
+													</div>
+													<span class="pro-name"><a href="#">미닛에이드 스파클링</a></span>
+												</li>
+												<li>
+													<div class="img">
+														<a href="#"><img src="img/cont2_mn3.jpg" alt="product3"/></a>
+													</div>
+													<span class="pro-name"><a href="#">미닛에이드 쿠우</a></span>
+												</li>
+												<li>
+													<div class="img">
+														<a href="#"><img src="img/cont2_mn4.jpg" alt="product4"/></a>
+													</div>
+													<span class="pro-name"><a href="#">미닛에이드 쿠우 젤리</a></span>
+												</li>
+												<li>
+													<div class="img">
+														<a href="#"><img src="img/cont2_mn5.jpg" alt="product2"/></a>
+													</div>
+													<span class="pro-name"><a href="#">미닛에이드 플라워</a></span>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="product2">
+										<h4 class="ir_so">씨그램</h4>
+										<div class="cont2-brand-logo">
+											<img src="img/brand-logo-cgram.png" alt="brand-logo"/>
+											<div class="mobile-img">
+												<img src="img/brand-logo2.png" alt="brand-logo"/>
+											</div>
+										</div>
+										<div class="cont2-brand-pro">
+											<ul>
+												<li>
+													<div class="img">
+													   <a href="#"><img src="img/cont2_cgram.jpg" alt="product1"/></a>
+													</div>
+													 <span class="pro-name"><a href="#">씨그램 워터</a></span>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</article>
+			<article class="content3">
+				<div class="container">
+				<h5 class="ir_so">FAQ/채용안내</h5>
+					<div class="cont3-imgBox">
+						<div class="faq">
+							<img src="img/cont3-faq.png" alt="faq-img"/>
+							<div class="txtAll1">
+								<div class="cont3-textBox1">
+									<i class="fas fa-question-circle"></i>
+									<h6 class="cont3-subtit"><a href="#">FAQ</a></h6>
+									<span class="cont3-subtxt">
+										내일의 희망을 향한 도전<br/>그 꿈을 코카-콜라 음료에서<br/>만들어가세요.
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="hire">
+							<img src="img/cont3-hire.png" alt="hire-img"/>
+							<div class="txtAll2">
+								<div class="cont3-textBox2">
+									<i class="fas fa-lightbulb"></i>
+									<h6 class="cont3-subtit"><a href="#">채용안내</a></h6>
+									<span class="cont3-subtxt">코카-콜라에 대한 궁금증을<br/>해결해 드립니다.</span>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</article>
+		</section>
+		<footer id="footer">
+			<div class="container">
+				<h6 class="ir_so">footer</h6>
+				<div class="foot-inner">
+					<div class="ft-logo-box">
+						<h3 class="ft-logo"><a href="#"><img src="img/logo.svg.png" alt="logo"/></a></h3>
+					</div>
+					<div class="socials">
+						<ul>
+							<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						</ul>
+					</div>
+					<div class="links">
+						<ul>
+							<li><a href="#">이용약관</a></li>
+							<li><a href="#">개인정보취급방침</a></li>
+							<li><a href="#">법적고지</a></li>
+							<li><a href="#">CONTACT US</a></li>
+						</ul>
+					</div>
+					<div class="family">
+						<button type="button">Family Site</button>
+						<ul class="family_list">
+							<li><a href="#" target="_blank">Family Site</a></li>
+							<li><a href="#">코크 파트너 시스템</a></li>
+							<li><a href="#">LG생활건강</a></li>
+							<li><a href="#">코카-콜라 미국본사</a></li>
+							<li><a href="#">사이버 신문고</a></li>
+							<li><a href="#">한국 코카-콜라</a></li>
+							<li><a href="#">CPS 열린구매</a></li>
+						</ul>
+					</div>
+					<div class="add">
+						<ul>
+							<li class="add">경상남도 양산시 충렬로 269 (유산동)</li>
+							<li class="tel">TEL) 080-024-5999</li>
+						</ul>
+					</div>
+					<div class="copy">
+						<ul>
+							<li class="copyright">COPYRIGHT ⓒ COCA-COLA BEVERAGE COMPANY. ALL RIGHTS RESERVED.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
